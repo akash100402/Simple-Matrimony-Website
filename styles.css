@@ -1,0 +1,431 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E8D62F; /* Gold */
+    color: #5E0905; /* Brown */
+}
+hr{
+  border-color: #333;
+}
+header {
+    background-color: #E8D62F; /* Brown */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+  text-decoration: none;
+}
+#find{
+  padding: 10px 18px;
+  border-radius: 20px;
+transition: 0.3s ease-out;
+  background-color: white;
+  color: #333;
+  font-size: larger;
+  margin-left: 46%;
+  margin-bottom: 20px;
+}
+#find:hover{
+  background-color: #E8D62F;
+  color: #5E0905;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5E0905; /* Gold */
+}
+
+section {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    background-color: #5E0905; /* Brown */
+    color: #E8D62F; /* Gold */
+}
+
+/* CSS for contact section */
+#contact h2,
+#contact p {
+    color: #5E0905; /* Brown */
+}
+
+#about{
+    /* Style for the About Us section */
+    background-color: #E8D62F; /* Gold */
+    color: #5E0905; /* Brown */
+}
+/* footer open */
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .community-info, .quick-links, .contact-us {
+    width: 30%;
+  }
+  .community-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .community-info p, .contact-us p {
+    font-size: 14px;
+  }
+  .quick-links ul, .contact-us ul {
+    list-style: none;
+    padding: 0;
+  }
+  .quick-links li, .contact-us li {
+    margin-bottom: 10px;
+  }
+  .quick-links a, .contact-us a {
+    text-decoration: none;
+    color: #5E0905;
+  }
+  .contact-us .icon {
+    margin-right: 5px;
+  }
+/* footer  close*/
+
+/* Counter box open */
+.counter-box {
+    display: flex;
+    background: linear-gradient(to right, #E8D62F, #E8D62F);
+    padding: 50px;
+    color: #5E0905;
+    text-align: center;
+  }
+  .counter-item {
+    flex: 1;
+    margin: 0 10px;
+  }
+  .number {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  .label {
+    font-size: 1em;
+  }
+
+/* Counter box close */
+
+/* About open */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .text-content {
+    width: 60%;
+  }
+  .text-content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .text-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .illustration {
+    width: 40%;
+    text-align: center;
+  }
+  .illustration img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+/* about close */
+
+/* contact open */
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact-form, .contact-info, .departments {
+    width: 30%;
+    background-color: #E8D62F;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #5E0905;
+  }
+ 
+  button {
+    padding: 10px;
+    background-color: #E8D62F;
+    color: #5E0905;
+    cursor: pointer;
+    border: none;
+    font-size: larger;
+    font-weight: bold; /* Make the text bold */
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Center the button horizontally */
+  }
+  button:hover {
+    background-color: #5E0905;
+    color: #E8D62F;
+  }
+  
+
+  .contact-info, .departments {
+    background-color: #E8D62F;
+    color: #5E0905;
+  }
+  .departments div {
+    margin-bottom: 10px;
+  }
+
+/* Contact close */
+
+footer {
+    background-color: #E8D62F; /* Brown */
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* login open */
+
+.loginbutton {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.login-container {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #E8D62F; /* Assuming white background */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    
+  }
+
+
+  .login-header h1 {
+    text-align: center;
+    color: #333; /* Dark text for the header */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin-bottom: 5px;
+  }
+   
+  .login-form button {
+    padding: 10px;
+    background-color: #E8D62F; /* Yellow background */
+    color: #5E0905; /* Dark text */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #5E0905; /* Dark background */
+    color: #E8D62F; /* Yellow text */
+  }
+  
+/* login close */
+
+/* for dashboard */
+.filter{
+  width: 100%;
+  background-color:#5E0905;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+#apply{
+  margin-top: 30px;
+  padding: 8px 14px;
+  border-radius: 20px;
+transition: 0.3s ease-out;
+  background-color: white;
+  color: #333;
+  font-size: large;
+  margin-left: 46%;
+  margin-bottom: 20px;
+}
+#apply:hover{
+  background-color: #333;
+  color: white;
+}
+ .filter   select {
+            width: 240px;
+            padding: 8px;
+       font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            height: 50px;
+        }
+        .container-1 {
+            width: 90%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color:#5E0905;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container-1 h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .user-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .user-card {
+            width: 330px;
+            /* Adjust the width here */
+            margin-bottom: 20px;
+            /* Adjust spacing between cards */
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+.user-card:hover{
+  background-color: gainsboro;
+  
+}
+        .user-photo {
+            text-align: center;
+        }
+
+        .user-photo img {
+            max-width: 200px;
+            border-radius: 15px;
+        }
+
+        .user-details {
+            text-align: center;
+        }
+
+
+
+        /* for profile page  */
+
+        .container-profile {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container-profile h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .profile-details {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .profile-details p {
+             margin-top: 20px ;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+
+        .profile-photo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-photo img {
+            max-width: 200px;
+            border-radius: 15px;
+        }
+
+        /* for user detail page   */
+
+
+        .container-details {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container-details h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .user-details {
+            margin-bottom: 20px;
+        }
+
+        .user-details p {
+            margin-top: 20px ;
+            margin-left: 20px;
+            font-size: 20px;
+
+        }
+
+        .user-photo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .user-photo img {
+            max-width: 200px;
+            border-radius: 5px;
+        }

@@ -1,0 +1,71 @@
+button css old
+ button {
+    padding: 10px;
+    background-color: #E8D62F;
+    color: #5E0905;
+    cursor: pointer;
+    border: none;
+    font-size: larger;
+    font-weight: bold; /* Make the text bold */
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Center the button horizontally */
+  }
+  button:hover {
+    background-color: #5E0905;
+    color: #E8D62F;
+  }
+
+
+
+
+  /////////////////////
+
+
+  
+body {
+    background-color: #5E0905; /* Brown */
+    color: #E8D62F; /* Gold */
+}
+
+/* CSS for login section */
+#login {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#login div {
+    margin-bottom: 20px;
+}
+
+#login div label, #login div button {
+    padding: 10px 20px;
+    background-color: #E8D62F; /* Gold */
+    color: #5E0905; /* Brown */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+///////////////////////////////////
+
+
+<div class="login-container">
+            <div class="login-header">
+                <h1>New User</h1>
+            </div>
+            <div class="login-form">
+                <button type="submit">Signup</button>
+            </div>
+        </div>
+
+        <div class="login-container">
+            <div class="login-header">
+                <h1>Existing User</h1>
+            </div>
+            <div class="login-form">
+                <button type="submit">Login</button>
+            </div>
+        </div>
